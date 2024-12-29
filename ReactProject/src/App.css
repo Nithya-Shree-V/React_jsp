@@ -1,0 +1,369 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: #FCFAEE;
+}
+
+#nav{
+  /* border: 2px solid red; */
+  box-shadow: 1px 1px 3px rgb(128, 77, 77);
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2bb1b3;
+  position: sticky;
+  top: 0px;
+}
+#nav section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  width: 70px;
+}
+#nav div,#togdiv{
+  background-color: #2bb1b3;
+}
+
+footer{
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2A3663;
+  height: 75px;
+}
+footer div{
+  background-color: #2A3663;
+  color: white;
+  
+}
+#logo{
+  font-size: 50px;
+  position: relative;
+  border-radius: 50%;
+}
+#nav button{
+  background-color: #E8B86D;
+  width: 80px;
+  height: 40px;
+  font-size: large  ;
+  border-radius: 20px;
+}
+
+#courses{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#container{
+/* border: 2px solid red; */
+width: 800px;
+box-shadow: 1px 0px 2px black;
+background-color: #FEFAE0;
+position: relative;
+/* left: 40px; */
+
+}
+#heading{
+  text-align: center;
+  background-color: darkcyan;
+  color: rgb(239, 224, 95);
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#head{
+  text-align: center;
+  background-color: darkcyan;
+  color: rgb(239, 224, 95);
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.head{
+  position: relative;
+  bottom: 10px;
+  width: 400px;
+  text-align: center;
+  background-color: darkcyan;
+  color: rgb(239, 224, 95);
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.head1,.head2,.head3,.head4{
+  text-align: center;
+  background-color: darkcyan;
+  color: rgb(239, 224, 95);
+}
+.head2{
+  position: relative;
+  top: 0px;
+  bottom: 20px;
+  
+}
+.head4{
+  width: 300px;
+}
+.head2 h1{
+  width: 400px;
+ 
+}
+.head3 h1{
+  width: 400px;
+  height: 30px;
+}
+.head3,.head2{
+  position: relative;
+  bottom: 5px;
+}
+.alignform{
+  width: 350px;
+  position: relative;
+  left:30px;
+  bottom: 10px;
+  
+}
+
+#title{
+  color: rgb(21, 44, 215) ;
+}
+#enquirycard{
+  height: 430px;
+  width:400px;
+  position: relative;
+  top:20px;
+  left:380px;
+  background-color: #FEFAE0;
+  box-shadow: 1px 1px 10px rgb(192, 157, 157);
+}
+#enquirycard input,#enquirycard select ,#loginform input{
+  height: 30px;
+}
+#card{
+  /* border: 2px solid red; */
+  box-shadow: 1px 1px 10px rgb(192, 157, 157);
+  height: 470px;
+  width:400px;
+  background-color: #FEFAE0;
+  position: relative;
+  top:20px;
+  /* left: 430px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#card1{
+  /* border: 2px solid red; */
+  box-shadow: 1px 1px 10px rgb(192, 157, 157);
+  height: 350px;
+  width:400px;
+  background-color: #FEFAE0;
+  position: relative;
+  top:20px;
+  /* left: 430px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#cards{
+  width: 300px;
+  background-color: #FEFAE0;
+  /* border: 2px solid red; */
+  box-shadow: 1px 0px 2px black;
+  
+}
+#cards:hover{
+  transition: all 2s ease-in-out 0s;
+}
+#enroll button{
+  width: 300px;
+  height: 30px;
+  background-color: #E8B86D;
+  /* border-style: none; */
+  border-color: #E8B86D;
+   /* box-shadow: 1px 1px 2px black; */
+}
+#content{
+  text-align: center;
+  padding: 2px;
+  
+}
+#cardscontainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+/* #parent, */
+#parent,#enqfun{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#loginform{
+  text-align: center;
+}
+#logincard{
+  /* border: 2px solid red; */
+  position: relative;
+  top:30px;
+  /* left: 350px; */
+  height: 225px;
+  width:400px;
+  background-color: #FEFAE0;
+  box-shadow: 1px 1px 10px rgb(192, 157, 157);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#btn,#conbtn{
+  /* background-color: rgb(240, 196, 217); */
+  background-color: #E8B86D;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+}
+#contactcard{
+  /* border: 2px solid red; */
+  position: relative;
+  top:20px;
+  /* background-color: #B2A59B; */
+  width: 500px;
+  display: flex;
+  background-color: #FEFAE0;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  left: 350px;
+  box-shadow: 1px 1px 10px rgb(192, 157, 157);
+}
+
+.slider-container {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.slider-container img {
+  width: 100%;
+  display: block;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#select{
+  width: 230px;
+}
+#enrolldiv,.homediv2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#enrolldiv{
+  position: relative;
+  bottom: 20px;
+}
+#enrolldiv input,#enrolldiv select{
+  height: 30px;
+}
+.alignform input{
+  height: 20px;
+}
+
+#homecards{
+  padding-top: 10px;
+  width: 270px;
+  background-color: #FEFAE0;
+  /* color: green; */
+  margin: 5px;
+  padding: 5px;
+  /* border: 2px solid red; */
+  height: 150px;;
+  box-shadow: 1px 0px 2px black;
+  text-align: center;
+}
+.homediv1{
+  text-align: center;
+  height: 100px;
+  /* width: 800px; */
+}
+.homediv1 #div1{
+  color: rgb(41, 41, 185);
+  font-size: x-large
+  
+}
+#logos{
+  color:rgb(41, 41, 185);
+  font-size: 40px;
+}
+#nav button:hover{
+  transform: scale(1.1,1.1);
+}
+#cardscontainer:hover{
+  transform: scale(1.1,1.1);
+}
+
+#spanalign{
+ position: relative;
+ bottom: 5px;
+}
+#printdetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 230px;
+  width: 300px;
+  /* border: 2px solid red; */
+  background-color: #FEFAE0;
+  position: relative;
+  left: 430px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 10px rgb(192, 157, 157);
+  text-align: center;
+ 
+}
+#printdetails span{
+  color: rgb(210, 46, 46);
+}
+
+
+
